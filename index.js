@@ -28,17 +28,6 @@ db.connect((err) => {
   }
 });
 
-// //Create Table
-// const sql =
-//   "CREATE TABLE posts (id INT AUTO_INCREMENT, user_id INT(2), filename VARCHAR(500), PRIMARY KEY(id))";
-// db.query(sql, (err) => {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     console.log("Table created succesfully");
-//   }
-// });
-
 //Fetching Data
 app.get("/get-posts", (req, res) => {
   const sql = "SELECT * FROM posts";

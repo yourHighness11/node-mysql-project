@@ -1,6 +1,6 @@
 # Database creation
 
-Create a database "test_db" and a Table "posts"(i have also added the code to create table).
+Create a database "test_db" and import table "posts".
 
 # Run the project
 
